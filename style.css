@@ -1,0 +1,25 @@
+body {
+    font-family: "Segoe UI", Arial, "Helvetica Neue", sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(assets/corinthia.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+.caixa {
+    background-color: white;
+    max-width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+}
